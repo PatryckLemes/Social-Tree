@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 78px;
+}
+.cabeçalho-perfil{
+    border-radius: 50%;
+    width: 190px;
+    border: 2px solid#229296;
+    padding: 4px;
+}
+
+.cabeçalho-insta{
+    margin: 16px ;
+    font-family: 'Poppins', sans-serif;
+    weight: 300;
+    font-size: 16px;
+    color: #229296;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px
+}
+
+.conteudo-principal-botoes{
+    margin: 8px;
+    padding: 16px;
+    width: 400px;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #229296;
+    border: 2px solid #229296;
+    border-radius: 4px;
+}
+
+.conteudo-principal-botoes:hover{
+    background-color:#d6feff;
+    
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+
+.rodape-img{
+    height: 24px;
+    margin: 50px 18px;
+    box-shadow: 4px 5px 4px 0px #00000040;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
